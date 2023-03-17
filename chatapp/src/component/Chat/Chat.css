@@ -1,0 +1,89 @@
+.chatPage {
+  background: rgb(32 33 36);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatConatiner {
+  background-color: white;
+  width: 50%;
+  height: 60%;
+}
+
+.header {
+  height: 15%;
+  background-color: rgb(28 152 247);
+  box-sizing: border-box;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vmax;
+}
+
+.header>h1{
+  color: white;
+  margin-bottom: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header img{
+  height: 3vmax;
+  filter: invert();
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.header img:hover{
+  transform: scale(1.2);
+}
+
+.chatBox {
+  height: 70%;
+  box-sizing: border-box;
+}
+
+.inputBox {
+  height: 15%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#chatInput {
+  width: 80%;
+  border: none;
+  padding: 2vmax;
+  outline: none;
+  font-size: 1.2vmax;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  border-top: 0.2vmax solid rgb(28 152 247) ;
+}
+
+.sendBtn {
+  background-color: rgb(28 152 247);
+  width: 20%;
+  border: none;
+  color: white;
+  font-size: 1.5vmax;
+  font-weight: bold;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sendBtn:hover {
+  background-color: rgb(29, 127, 202);
+}
+
+.sendBtn > img {
+  width: 2.7vmax;
+  transition: all 0.3s;
+}
+
+.sendBtn:hover img {
+    transform: translateX(0.3vmax);
+}
